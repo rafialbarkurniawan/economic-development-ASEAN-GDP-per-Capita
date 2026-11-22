@@ -1,0 +1,50 @@
+================================================================================
+ECONOMIC DEVELOPMENT DASHBOARD (ASEAN GDP PER CAPITA) ANALYSIS REPORT
+Dataset: ASEAN GDP per Capita PPP (2000–2025)
+Source Reference: Power BI Report (economic-development-dashboard-ASEAN-GDP-per-capita.pbix)
+================================================================================
+
+1. EXECUTIVE SUMMARY & DASHBOARD OVERVIEW
+--------------------------------------------------------------------------------
+This report analyzes economic development trends and year-over-year (YoY) growth dynamics across 6 ASEAN member countries (Indonesia, Malaysia, Philippines, Singapore, Thailand, and Viet Nam) from 2000 to 2025, measured in GDP per Capita Purchasing Power Parity (PPP, constant 2021 international dollars). Across the entire observation window, the Country Average GDP per Capita is $28.68K and the overall GDP per Capita YoY Growth % is 1.57%.
+
+
+2. ANSWERS TO KEY ANALYTICAL QUESTIONS
+--------------------------------------------------------------------------------
+
+Q1: Which country has the highest GDP per capita PPP in the same year?
+Answer:
+Singapore consistently records the highest GDP per capita PPP in every single year across the observed timeline (2000–2025). In the line chart ("GDP per Capita PPP by Year and Country Name"), Singapore's curve sits well above all peer ASEAN economies—starting around ~$69K in 2000 and climbing above ~$141K in 2025—compared to Malaysia (~$19K to ~$36K) and Thailand (~$12K to ~$23K), with Indonesia, Viet Nam, and the Philippines remaining below ~$16K over the same years.
+
+Q2: Which country experiences the largest increase in GDP per capita compared to the previous year?
+Answer:
+- In absolute dollar terms: Singapore experiences the largest year-over-year increase compared to the prior year, with a YoY change of +$1,472.09 (from a $101,318.32 prior-year baseline in the summary table), far exceeding Malaysia (+$386.98) and Viet Nam (+$267.21).
+- In relative percentage terms: Viet Nam records the strongest YoY growth rate at 3.14% (+$267.21 YoY change over an $8,509.96 prior-year baseline), ahead of Indonesia (2.07%, +$202.96) and the Philippines (1.99%, +$141.05).
+
+Q3: Does GDP per capita growth show a stable or fluctuating pattern?
+Answer:
+It shows a predominantly upward long-term trajectory with periodic fluctuations tied to macroeconomic cycles and external shocks rather than a purely flat or completely smooth line. While all six countries generally expand over time, the time series displays noticeable slowdowns, flattens, or dips around 2001–2002, 2008–2009 (Global Financial Crisis), 2020 (COVID-19 shock), and minor adjustments such as 2023 in higher-income/open economies, alongside differing growth velocities across countries (ranging from 1.14% in Thailand to 3.14% in Viet Nam).
+
+Q4: Are the differences between countries widening or narrowing over the observation period?
+Answer:
+In absolute GDP per capita PPP terms, the gap between the highest-income economy (Singapore) and lower-income ASEAN peers (such as the Philippines, Viet Nam, and Indonesia) has widened substantially between 2000 and 2025 because Singapore's larger base grows by larger absolute dollar increments each year (reaching >$141K vs. ~$11K–$16K for lower-tier peers). However, in relative percentage growth terms, faster-growing economies like Viet Nam (3.14%), Indonesia (2.07%), and the Philippines (1.99%) show higher percentage growth rates than Singapore (1.45%) and Thailand (1.14%), indicating partial catch-up in growth rates even as absolute dollar spreads remain wide.
+
+Q5: Are there specific years that show changes requiring further investigation?
+Answer:
+Yes. Key inflection/shock years that warrant closer examination using the `Year, Country Name` slicer include:
+- 2008–2009: Visible slowdown/dip across the series during the Global Financial Crisis.
+- 2020: Clear disruption/dip reflecting the COVID-19 pandemic shock across regional economies.
+- 2023 and the latest boundary years (up to 2025): Recent fluctuations/rebounds (such as the 2023 dip and 2024–2025 movement in Singapore's trajectory) that should be verified for data completeness and underlying economic drivers.
+
+
+3. DATA LIMITATIONS & INTERPRETATION GUARDRAILS
+--------------------------------------------------------------------------------
+When interpreting these findings, the following limitations and analytical rules must be observed:
+- Not a Measure of Income Distribution: GDP per capita is an average and does not measure income inequality; a high value does not mean all residents earn high incomes.
+- PPP Limitations on Welfare: Purchasing Power Parity (PPP) helps compare relative purchasing power across countries, but it does not capture all dimensions of living standards or societal well-being.
+- Distinct from Household Income or Average Wages: GDP per capita is not equivalent to household income or average worker wages.
+- Missing Data Is Not Zero: Unavailable or missing data in a given year must never be treated or imputed as zero.
+- No Causal Attribution from the Chart Alone: Do not infer the causes of growth or decline solely from these charts without corroborating economic/policy evidence.
+- Verify Latest Year Availability Across All Countries: Always check whether data for the latest year (such as 2025) is available and complete across every country before making cross-country comparisons for that year.
+- Dataset & Model Scope Notes: The report covers 6 ASEAN economies (Indonesia, Malaysia, Philippines, Singapore, Thailand, Viet Nam) in `FactGDP` and `DimDate`, and the summary table's `Sum of Year` column (52,325) reflects raw numeric summation of year values.
+================================================================================
